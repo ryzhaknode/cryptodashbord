@@ -1,4 +1,3 @@
-// components/CountriesList/CountriesList.tsx
 import React from 'react';
 import { Country } from '@/lib/api/getCountries';
 import styles from './CountriesList.module.scss';

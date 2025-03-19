@@ -1,4 +1,3 @@
-// components/Header.tsx
 "use client";
 import styles from "./Header.module.scss";
 

@@ -1,19 +1,17 @@
-// Загальні стилі для фону (overlay)
 .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); // затемнення фону
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 1;
-  transition: opacity 0.3s ease-out; // Плавне зникнення фону
+  transition: opacity 0.3s ease-out;
 }
 
-// Стилі для модалки
 .modal {
   background-color: #fff;
   width: 200px;
@@ -29,7 +27,6 @@
   animation: fadeIn 0.3s ease-out, fadeOut 0.3s ease-in 2.7s forwards;
 }
 
-// Анімація для входу (спочатку модалка з'являється знизу)
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -41,7 +38,7 @@
   }
 }
 
-// Анімація для виходу (модалка зникає вниз)
+
 @keyframes fadeOut {
   0% {
     opacity: 1;

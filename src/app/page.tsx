@@ -8,7 +8,6 @@ import { fetchCountries } from "@/lib/api/getCountries";
 import CountriesList from "@components/CountriesList/CountriesList";
 
 export default function HomePage() {
-    // Запити через SWR
     const { data: cryptos, error: cryptoError, isLoading: isCryptoLoading } = useSWR("top-cryptos", getTopCryptos);
     const { data: countries, error: countryError, isLoading: isCountryLoading } = useSWR("countries", fetchCountries);
 

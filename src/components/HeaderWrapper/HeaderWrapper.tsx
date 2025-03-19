@@ -1,4 +1,3 @@
-// components/HeaderWrapper.tsx
 import { cookies } from "next/headers";
 import Header from "@components/Header/Header";
 

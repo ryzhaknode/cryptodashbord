@@ -3,9 +3,8 @@ import {useEffect, useState} from 'react';
 import styles from '@styles/pages/Auth.module.scss';
 import {loginUser, RegisterUser, registerUser} from "@/app/auth/actions";
 import MessageModal from "@/features/MessageModal/MessageModal";
-import {useRouter} from "next/navigation"; // Припускаємо, що registerUser вже типізований
+import {useRouter} from "next/navigation";
 
-// Типізація даних форми
 
 export default function Auth() {
     const router = useRouter();
