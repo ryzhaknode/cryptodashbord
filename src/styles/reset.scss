@@ -1,0 +1,58 @@
+/* == CSS Reset (Modern) == */
+
+/* 1. Скидаємо всі відступи та падінги */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Встановлюємо однаковий розмір шрифту */
+html {
+  font-size: 16px; /* Базовий розмір шрифту */
+  -webkit-text-size-adjust: 100%; /* Вимикає автоматичне масштабування */
+  scroll-behavior: smooth;
+}
+
+/* 3. Видаляємо стилі списків */
+ul, ol {
+  list-style: none;
+}
+
+/* 4. Вимикаємо стилі кнопок та інших елементів форм */
+button, input, textarea, select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 5. Видаляємо стандартне оформлення посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 6. Забезпечуємо коректне вирівнювання зображень */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 7. Видаляємо стандартне оформлення заголовків */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* 8. Вирівнюємо таблиці */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* 9. Додаємо кращу доступність */
+[hidden] {
+  display: none !important;
+}

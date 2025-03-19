@@ -1,0 +1,87 @@
+.container {
+  height: 400px;
+  max-width: 550px;
+  background-color: #29293d;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.listWrapper {
+  height: 90%;
+  overflow-y: scroll; /* Завжди показує вертикальний скроллбар */
+  overflow-x: hidden; /* Приховує горизонтальний скролл */
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #555; /* Колір повзунка */
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 5px;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 30px;
+}
+
+.item {
+  width: 200px;
+  background: #3a3a55;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.price {
+  font-size: 14px;
+  margin: 0;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.emoji {
+  font-size: 2rem;
+}

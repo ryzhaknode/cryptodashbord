@@ -1,0 +1,35 @@
+
+.auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation{
+  padding: 10px 10px;
+  //border: 1px solid #1a1a1a;
+  margin-bottom: 20px;
+  &__list{
+    display: flex;
+    justify-content: space-around;
+  }
+  &__button{
+    min-width: 150px;
+  }
+}
+
+.form{
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+
+
+.active{
+
+}
