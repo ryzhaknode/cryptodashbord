@@ -6,7 +6,6 @@ import MessageModal from "@/features/MessageModal/MessageModal";
 import {useRouter} from "next/navigation";
 
 
-//new comment testtest
 export default function Auth() {
     const router = useRouter();
     const [formData, setFormData] = useState<RegisterUser>({

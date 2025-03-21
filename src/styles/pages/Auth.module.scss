@@ -1,11 +1,14 @@
 
 .auth{
+  height: 90vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .navigation{
+
   padding: 10px 10px;
   //border: 1px solid #1a1a1a;
   margin-bottom: 20px;
